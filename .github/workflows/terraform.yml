@@ -37,4 +37,6 @@ jobs:
       - name: Terraform Plan
         run: terraform -chdir=builder plan
       - name: current dir
-        run: pwd
+        run: |
+          pwd
+          ls
