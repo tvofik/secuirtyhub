@@ -11,6 +11,6 @@ output "module" {
 output "root" {
   value = path.root
 }
-output "root" {
+output "cwd" {
   value = path.cwd
 }
