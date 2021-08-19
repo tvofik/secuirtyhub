@@ -36,3 +36,5 @@ jobs:
       # Generates an execution plan for Terraform
       - name: Terraform Plan
         run: terraform -chdir=builder plan
+      - name: current dir
+        run: pwd
