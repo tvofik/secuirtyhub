@@ -39,4 +39,7 @@ jobs:
       - name: current dir
         run: |
           pwd
-          ls
+          echo "****"
+          ls 
+          echo "****"
+          ls -al ./deploy
