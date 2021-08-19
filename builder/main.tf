@@ -3,3 +3,14 @@ resource "local_file" "foo" {
   filename = "${path.root}/build.tf"
   # filename = var.filename
 }
+
+
+output "module" {
+  value = path.module
+}
+output "root" {
+  value = path.root
+}
+output "root" {
+  value = path.cwd
+}
